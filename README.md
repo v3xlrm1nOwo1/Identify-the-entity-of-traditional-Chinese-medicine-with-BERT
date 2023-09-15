@@ -25,15 +25,19 @@ In this project I used PyTorch and the model and dataset in the top and in the d
 
 ### Run This Project
 For run this project follow this steps:
+- Install libraries
+  ```zsh
+  pip install datasets transformers[torch] torch
+  ```
 - Optinal open config.py file edit MODEL_PATH to the file you want save the model.
 -  Run train.py file.
-```zsh
-python train.py
-```
+    ```zsh
+    python train.py
+    ```
 - After the train model run the get_prdict.py file for get prediction of Traditional Chinese Medicine Phrases.
-```zsh
-python get_prdict.py
-```
+  ```zsh
+  python get_prdict.py
+  ```
 
 ### Note
 
